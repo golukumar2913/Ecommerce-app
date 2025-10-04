@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+  {
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+=======
+  {
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+>>>>>>> 545e626 (2nd commit)
