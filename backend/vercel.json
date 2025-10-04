@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "Server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Server.js"
+    }
+  ]
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 545e626 (2nd commit)
