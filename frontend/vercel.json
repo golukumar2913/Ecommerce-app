@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
   {
     "rewrites": [
       {
@@ -7,13 +7,3 @@
       }
     ]
   }
-=======
-  {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ]
-  }
->>>>>>> 545e626 (2nd commit)
