@@ -141,7 +141,8 @@ const Footer = () => {
           </ul>
         </div>
         {/* Social */}
-        <div>
+        <div className="hidden md:block">
+          
           <h3
             className={
               "text-lg font-semibold mb-2 " +
@@ -151,14 +152,16 @@ const Footer = () => {
             Follow Us
           </h3>
           <div className="flex gap-4 mt-2 text-xl">
-            <FaFacebookF
+            <a>
+              <FaFacebookF
               className={
                 "cursor-pointer " +
                 (darkMode
                   ? "text-blue-400 hover:text-white"
                   : "text-blue-600 hover:text-blue-800")
               }
-            />
+            /></a>
+            
             <FaTwitter
               className={
                 "cursor-pointer " +
@@ -167,22 +170,32 @@ const Footer = () => {
                   : "text-blue-400 hover:text-blue-600")
               }
             />
-            <FaInstagram
+            <a 
+              href="https://instagram.com/golu_singh_2913"
+                className="hover:scale-110 transition-transform"
+                title="Instagram">
+              <FaInstagram
               className={
                 "cursor-pointer " +
                 (darkMode
                   ? "text-pink-400 hover:text-white"
                   : "text-pink-500 hover:text-pink-700")
               }
-            />
-            <FaLinkedinIn
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/golu-kumar-7aaa6822b/"
+                className="hover:scale-110 transition-transform"
+                aria-label="LinkedIn"
+                title="LinkedIn">
+              <FaLinkedinIn
               className={
                 "cursor-pointer " +
                 (darkMode
                   ? "text-blue-300 hover:text-white"
                   : "text-blue-600 hover:text-blue-800")
               }
-            />
+            /></a>
+            
           </div>
         </div>
       </div>
