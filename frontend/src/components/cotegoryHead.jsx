@@ -7,8 +7,8 @@ import five from "../assets/category/earphone.jpeg";
 import Laptop from "../assets/category/laptop.jpg";
 import electronics from "../assets/category/electronics.jpg";
 
-import faishan from "../assets/category/faishan.jpeg";
-import trimer from "../assets/category/trimer.jpg";
+import fashion from "../assets/category/faishan.jpeg";
+import trimmer from "../assets/category/trimer.jpg";
 import watch from "../assets/category/watch.jpg";
 import tv from "../assets/category/tv.jpg";
 import book from "../assets/category/book.jpg";
@@ -27,9 +27,9 @@ function CotegoryHead({ selectedCategory, setSelectedCategory }) {
     { img: electronics, name: "Electronics" },
     { img: tv, name: "TV" },
     { img: book, name: "Book" },
-    { img: faishan, name: "Faishan" },
+    { img: fashion, name: "Fashion" },
     { img: beauty, name: "Beauty" },
-    { img: trimer, name: "Trimer" },
+    { img: trimmer, name: "Trimmer" },
     { img: watch, name: "Watch" },
   ];
 
